@@ -519,16 +519,16 @@ st.info(f"""
 # DOWNLOAD DATA
 # =========================================================
 
-st.subheader("⬇ Download Filtered Data")
+# st.subheader("⬇ Download Filtered Data")
 
-csv = filtered_df.to_csv(index=False)
+# csv = filtered_df.to_csv(index=False)
 
-st.download_button(
-    label="Download CSV",
-    data=csv,
-    file_name="filtered_laptops.csv",
-    mime="text/csv"
-)
+# st.download_button(
+    # label="Download CSV",
+    # data=csv,
+    # file_name="filtered_laptops.csv",
+    # mime="text/csv"
+# )
 
 
 # =========================================================
@@ -539,4 +539,8 @@ st.markdown("---")
 
 st.markdown(
     "🚀 Developed using Streamlit + Machine Learning"
+)
+
+st.markdown(
+    "🚀 Developed Ramchandra Suryawanshi"
 )
