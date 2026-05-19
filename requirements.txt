@@ -8,3 +8,4 @@ joblib
 selenium
 webdriver-manager
 plotly
+openpyxl
